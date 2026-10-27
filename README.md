@@ -11,7 +11,7 @@
 | 1 | AI Agent 到底怎么干活？靠的不是更聪明，是转圈 | 约 20 分钟 | 播放 236，点赞 5，2 秒跳出 57% | [brief](briefs/agent-loop/brief.md) · [旁白](briefs/agent-loop/narration.md) · [log](briefs/agent-loop/log.md) |
 | 2 | AI 最聪明的地方，是肯开口求人 | 约 30 分钟 | 待补 | [brief](briefs/agent-tools/brief.md) · [旁白](briefs/agent-tools/narration.md) · [log](briefs/agent-tools/log.md) |
 
-成片在抖音：<!-- TODO: 抖音主页或合集链接 -->
+成片在抖音：https://www.douyin.com/user/self?modal_id=7700988742844157247
 
 耗时是墙钟时间，基本都是 Claude 在写代码和渲染。第 1 集的数据不好看：一半多的人 2 秒内就划走了，问题在开头。第 2 集只改了选题角度和第一句话，其他不动，看能不能把这个数字压下来。
 
