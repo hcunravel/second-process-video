@@ -1,0 +1,25 @@
+{
+  "_note": "画面和音效共用的时间表。line 是文字时间表 text.srt 的第几句（从 1 数），frac 是这一句里的位置（0 = 句首，1 = 下一句开始）。music.py 也读这个文件",
+  "hook": { "lineB": 0.36, "circle": 0.66 },
+  "typing": { "line": 2, "from": 0.12, "to": 0.62 },
+  "dissolve": { "line": 3, "frac": 0.62 },
+  "events": [
+    { "id": "ignite", "line": 4, "frac": 0.04, "sfx": "ignite" },
+    { "id": "think1", "line": 5, "frac": 0.12, "sfx": "blip" },
+    { "id": "move1", "line": 6, "frac": 0.0, "sfx": "whoosh" },
+    { "id": "beam1", "line": 6, "frac": 0.32, "sfx": "zap" },
+    { "id": "tool1", "line": 6, "frac": 0.4, "sfx": "ding" },
+    { "id": "move2", "line": 7, "frac": 0.0, "sfx": "whoosh" },
+    { "id": "results", "line": 7, "frac": 0.12, "sfx": "sparkle" },
+    { "id": "pick", "line": 7, "frac": 0.62, "sfx": "ding" },
+    { "id": "move3", "line": 8, "frac": 0.0, "sfx": "whoosh" },
+    { "id": "think2", "line": 8, "frac": 0.25, "sfx": "blip" },
+    { "id": "move4", "line": 9, "frac": 0.0, "sfx": "whoosh" },
+    { "id": "beam2", "line": 9, "frac": 0.3, "sfx": "zap" },
+    { "id": "event", "line": 9, "frac": 0.5, "sfx": "ding" },
+    { "id": "move5", "line": 10, "frac": 0.0, "sfx": "whoosh" },
+    { "id": "check", "line": 10, "frac": 0.58, "sfx": "chime" },
+    { "id": "strike", "line": 11, "frac": 0.5, "sfx": "zap" },
+    { "id": "drop", "line": 12, "frac": 0.0, "sfx": "boom" }
+  ]
+}

@@ -1,0 +1,7 @@
+out/
+qa/
+public/fonts/*.ttf
+public/**/*.mp3
+public/**/*.wav
+node_modules/
+.DS_Store
