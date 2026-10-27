@@ -43,6 +43,7 @@ briefs/<slug>/          brief、旁白、log、发布文案
 npm ci
 
 # 字体（思源黑体、思源宋体，OFL 协议，不进 git）
+mkdir -p public/fonts
 curl -L -o public/fonts/NotoSansSC.ttf "https://github.com/google/fonts/raw/main/ofl/notosanssc/NotoSansSC%5Bwght%5D.ttf"
 curl -L -o public/fonts/NotoSerifSC.ttf "https://raw.githubusercontent.com/google/fonts/main/ofl/notoserifsc/NotoSerifSC%5Bwght%5D.ttf"
 
@@ -54,3 +55,13 @@ npx remotion render agent-loop out/agent-loop.mp4     # 渲染成片
 ```
 
 没有 `music.wav` 也能渲染，只是没有声音。
+
+第一次渲染（`npx remotion still` 或 `render`）会自动下载 Remotion 用的无头浏览器 Chrome Headless Shell，约 170MB，只下载一次。网络慢时可能超时报错，重跑一次命令就行。
+
+## 许可证
+
+本仓库的代码和文档用 [MIT](LICENSE) 许可证，可以随便拿去改、拿去用。
+
+视频是用 [Remotion](https://www.remotion.dev/) 渲染的，它有自己的授权，和本仓库的 MIT 无关：个人、3 名员工以内的营利公司、非营利组织可以免费使用（包括商用）；更大的营利公司需要购买公司授权。以 [Remotion 的许可证原文](https://github.com/remotion-dev/remotion/blob/main/LICENSE.md)为准。
+
+字体是思源黑体、思源宋体，OFL 协议，可商用。
